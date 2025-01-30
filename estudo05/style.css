@@ -1,2 +1,83 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caveat:wght@400..700&family=Jersey+10&family=Smooch+Sans:wght@100..900&display=swap');
+
+:root {
+    --fontprincipal: 'Anton';
+    --mainfont: 'Smooch Sans';
+    --fontp: 'Caveat';
+    --fontli: 'Jersey 10';
+
+    --cor01: #03520a;
+    --cor02: #71E6DD;
+    --cor03: #6A9169;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+   background-color: var(--cor02); 
+}
+
+header {
+    background-color: var(--cor03);
+    height: 100px;
+}
+
+header h1 {
+    font-family: var(--fontprincipal);
+    text-align: center;
+}
+
+nav {
+    padding: 32px 0px 0px 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: var(--cor01);
+    padding: 2px;
+}
+
+main {
+    background-color: white;
+}
+
+main h1 {
+    font-family: var(--mainfont);
+    margin: 0px 20px 0px 30px;
+}
+
+main ul {
+    margin-bottom: 5px;
+}
+
+main ul > li {
+    padding: 2px 0px 2px 35px;
+    font-family: 'Jersey 10';
+    font-size: 1.2rem;
+
+}
+
+main p {
+    font-family: var(--fontp);
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 0px 4px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 4px;
+    font-family: 'Jersey 10';
+}
