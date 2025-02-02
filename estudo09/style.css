@@ -1,33 +1,75 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caveat:wght@400..700&family=Jersey+10&family=Smooch+Sans:wght@100..900&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
 :root {
-    --font: ;
+    --font: 'Smooch Sans';
     --font01: ;
 
     --cor: ;
     --cor01: ; 
 }
 
-body {
-
+header {
+    background-color: rgb(151, 150, 150);
 }
 
-header {
-    
+header h1 {
+    text-align: center;
+    font-family: 'Smooch Sans';
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header p {
+    text-align: center;
+    margin-top: -10px;
+    font-family: 'Smooch Sans';
+    font-weight: 500;
 }
 
 nav {
-
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.308);
 }
 
-hr {
-    background-color: black;
-    border: 2px solid;
-    margin-top: 4px;
-    
+nav a {
+    padding-left: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    background-color: rgb(198, 197, 197);
+    width: 590px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 900px;
+}
+
+main h1 {
+    font-family: 'Smooch Sans';
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-style: normal;
+    padding: 3px;
+}
+
+main article img {
+    width: 100%;
+}
+
+main img source {
+    max-width: 600px; 
 }

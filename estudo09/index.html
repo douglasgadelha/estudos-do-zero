@@ -6,23 +6,11 @@
     <title>estudo 09</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <script>
-        function myFuncition(){
-            document.getElementById("demo"). innerHTML = "so estou fazendo";
-        }
-    </script>
-    <script>
-        window.alert(+cuidado);
-    </script>
-
 </head>
 <body>
     <header>
         <h1>futebol</h1>
         <p>aqui vamos descobrir, como surgiu o país do futebol</p>
-        <hr>
-        <p id="demo">a paragrafo</p>
-        <button type="button" onclick="myFuncition()">try it</button>
         <nav>
             <a href="#">menu</a>
             <a href="#">futebol</a>
@@ -32,7 +20,11 @@
     <main>
         <article>
             <h1>o rei, a lenda</h1>
-            <img src="pele-full.png" alt="foto do pelé">
+            <picture>
+                <source media="(min-width: 500px;)" srcset="pele-300.png">
+                <img src="pele-full.png" alt="foto do pelé">
+            </picture>
+
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, amet quis. Hic sapiente optio ab natus commodi eos ex quidem nihil id tempore. Enim fugit sed minus dolores voluptas in?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, fugit consequuntur tenetur corporis recusandae, aperiam excepturi vel magnam ullam quis velit voluptatum nulla, necessitatibus aspernatur porro non. Eligendi, exercitationem consequuntur.</p>
         </article>
     </main>
