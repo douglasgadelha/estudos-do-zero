@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caveat:wght@400..700&family=Gruppo&family=Jersey+10&family=Smooch+Sans:wght@100..900&family=Yellowtail&display=swap');
+
+:root {
+    --font01: 'Yellowtail';
+}
+
+header {
+    background-color: darkgray;
+}
+
+header h1 {
+    text-align: center;
+    font-family: var(--font01); 
+}
