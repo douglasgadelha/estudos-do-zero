@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(142, 141, 141);
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2rem;
+    padding-top: 20px; 
+}
+
+header p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 1rem;
+    font-style: normal;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(169, 169, 169);
+    height: 5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: rgb(86, 84, 84);
+}
+
+main picture img.pele {
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+}
+
+p {
+    padding: 4px;
+    text-align: justify;
+}
