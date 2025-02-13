@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caveat:wght@400..700&family=Gruppo&family=Jersey+10&family=Shafarik&family=Smooch+Sans:wght@100..900&family=Yellowtail&display=swap');
+
+:root {
+    --cor01: #864D91;
+    --cor02: #A745BB;
+    --cor03: #614766;
+
+    --font01: 'Shafarik';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#pagina header img.logo-peixe {
+    width: 100px;
+
+}
+#pagina h1 {
+    margin-top: -98px;
+    font-family: 'Shafarik';
+    padding-left: 100px;
+}
+
+#pagina p {
+    padding-left: 100px;
+    padding-bottom: 3px;
+}
+
+#pagina a {
+    padding-left: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+#pagina main article div.peixe01 {
+    background-image: url(imagens/peixe-290.jpg);
+    background-position: center center;
+    width: 290px;
+    height: 190px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#pagina main article div.peixe02 {
+    background-image: url(imagens/peixe02-290.jpg);
+    height: 190px;
+    width: 280px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: auto;
+}
+
+#pagina footer p {
+    text-align: center;
+    padding: 4px;
+}
+
