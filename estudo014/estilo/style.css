@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gruppo&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Shafarik&family=Smooch+Sans:wght@100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+:root {
+    --color: #cb3469;
+
+    --font: 'Saira Condensed';
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: #9d1343;
+}
+
+header {
+    background-color: var(--color);
+    text-align: center;
+    color: white;
+    font-variant: small-caps;
+}
+
+header > h1 {
+    padding-top: 25px;
+}
+
+header abbr {
+    text-decoration: none;
+}
+
+header > p {
+    padding-bottom: 25px;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    font-family: var(--font);
+    padding-top: 10vh;
+    padding-bottom: 10vh; 
+    line-height: 2em;
+    padding-left: 40px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+    text-align: justify;
+}
+
+section.imagem {
+    background-image: url(projeto/matue.png);
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
