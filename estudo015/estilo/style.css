@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    background-color: #0f101474;
+    max-width: 1000px;
+    min-width: 350px;
+    margin: auto;
+    height: 100vh;
+}
+
+header {
+    background-color: #9BDCE5;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 20px;
+    font-variant: small-caps;
+    font-size: 3em;
+}
+
+header > p {
+    padding-bottom: 20px; 
+    font-size: 1.2em;
+    font-weight: 800;
+    font-style: normal;
+}
+
+main article p.unico {
+    background-color: white;
+    margin: -20px;
+    width: 100%;
+}
+
