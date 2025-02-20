@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+header {
+    background-color: gray;
+    height: 90px;
+
+}
+
+table {
+    margin-top: 30px;
+    padding: 9px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    width: 400px;
+    height: 50px;
+}
+
+td.unico {
+    background-color: gray;
+    text-align: center;
+}
+
+td.maioria {
+    vertical-align: top;
+}
