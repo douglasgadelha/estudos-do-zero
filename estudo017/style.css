@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 98vh;
+}
+
+:root {
+    --font01: 'Nova Square';
+}
+
+header {
+    background-color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header > h1 {
+    text-align: center;
+    font-family: var(--font01);
+}
+
+main {
+    background-image: radial-gradient(rgb(83, 80, 80), gray);
+    height: 30vh;
+}
+
+main h2 {
+    font-family: var(--font01);
+}
+
+main > p {
+    font-weight: bold;
+    text-align: justify; 
+    padding: 4px;
+}
